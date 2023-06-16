@@ -1,0 +1,80 @@
+
+.topnav {
+    background-color: #b11d1d;
+    overflow: hidden;
+}
+
+  /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #f8c419;
+        color: black;
+    }
+
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        background-color: #f8c419;
+        color: rgb(0, 0, 0);
+    }
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f9feff;
+    }
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 20px;
+    background-color: #b11d1d59;
+    border-radius: 10px;
+}
+
+.lista li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.go {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f8c419;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 5px 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 50px;
+} 
